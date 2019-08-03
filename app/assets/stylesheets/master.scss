@@ -20,6 +20,10 @@ body {
 	font-family: 'Pacifico', cursive;
 }
 
+.brand a {
+	text-decoration: none;
+}
+
 .top-nav .add a {
 	font-weight: bold;
 	color: #125688;
@@ -72,16 +76,17 @@ input {
   font-size: 24px;
   color: white;
   margin-top: 10px;
+  cursor: pointer;
 }
 
-.input.boolean {
+.boolean {
 	margin-left: 18px;
 	margin-top: 5px;
 }
 
-.input.boolean label {
+.boolean label {
 	margin-top: 5px;
-	line-height: 44px;
+	line-height: 5px;
 }
 
 .gram-actions a {
